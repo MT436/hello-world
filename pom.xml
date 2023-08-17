@@ -38,7 +38,17 @@
           <target>1.6</target>
         </configuration>
       </plugin>
-
+             
+      <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.8.1</version> <!-- Use a version compatible with your project -->
+            <configuration>
+                <source>1.8</source> <!-- Update this to the Java version you want -->
+                <target>1.8</target> <!-- Update this to the Java version you want -->
+            </configuration>
+      </plugin>
+           
       <plugin>
         <artifactId>maven-release-plugin</artifactId>
         <configuration>
